@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- This is the header of the image gallery -->
+    <h1> <h1>Gadget Image Gallery</h1></h1>
+    <!-- Here are the buutons for the various selections of the images -->
+
+    <div class="filter-buttons">
+        <button class="filter-btn" data-category="all">All</button>
+        <button class="filter-btn" data-category="laptop">Laptops</button>
+        <button class="filter-btn" data-category="laptop">Google pixel</button>
+        <button class="filter-btn" data-category="laptop">Samsung</button>
+        <button class="filter-btn" data-category="laptop">Iphone</button>
+        </div>
+<!--  here is the image inserting part with descriptive text -->
+        <div class="gallery">
+            <div class="image-item" data-category="laptop">
+                <img src="laptop1.jpg" alt="Laptop">
+                <div class="overlay">Powerful Laptop <br>Hidden gem of no kind</div>
+            </div>
+            <div class="image-item" data-category="laptop">
+                <img src="laptop2.jpg" alt="Laptop">
+                <div class="overlay">Sleek Ultrabook <br>Machine in a single piece</div>
+            </div>
+            <div class="image-item" data-category="smartphone">
+                <img src="pixel1.jpg" alt="Smartphone">
+                <div class="overlay">Latest Smartphone<br>Small but mighty gadget</div>
+            </div>
+            <div class="image-item" data-category="smartphone">
+                <img src="pixel2.jpg" alt="Smartphone">
+                <div class="overlay">Flagship Phone<br>Speed is nothing to me</div>
+            </div>
+            <div class="image-item" data-category="smartphone">
+                <img src="samsung1.jpg" alt="Smartphone">
+
+                <div class="overlay">Feature-rich Smartphone<br>Get the vlaue of your money</div>
+            </div>
+            <div class="image-item" data-category="smartphone">
+                <img src="samsung2.jpg" alt="Smartwatch">
+                <div class="overlay">Elegant Smartphone<br>Power house for  something good</div>
+            </div>
+            <div class="image-item" data-category="smartphone">
+                <img src="iphone1.jpg" alt="smartphone">
+                <div class="overlay">Professional iphone<br>Get value and style in mode piece</div>
+            </div>
+            <div class="image-item" data-category="smartphone">
+                <img src="iphone2.jpg" alt="smartphone">
+                <div class="overlay">Enjoy biggest device<br>Rich kids will know more</div>
+            </div>
+        </div>
+        <!-- connecting the javascript file to my html file -->
+
+    <script src="script.js"></script>
+</body>
+</html>
